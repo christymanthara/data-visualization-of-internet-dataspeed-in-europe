@@ -1,0 +1,22 @@
+{
+  "name": "vite-svelte-starter",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "devDependencies": {
+    "@sveltejs/vite-plugin-svelte": "^2.4.4",
+    "svelte": "^4.1.2",
+    "vite": "^4.4.9"
+  },
+  "dependencies": {
+    "@snlab/florence": "^0.4.0",
+    "@snlab/florence-datacontainer": "^0.2.2",
+    "d3-scale": "^4.0.2",
+    "d3-scale-chromatic": "^3.0.0"
+  }
+}
